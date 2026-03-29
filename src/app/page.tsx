@@ -1,3 +1,4 @@
+import Home from "@/components/organisms/Home";
 import Navbar from "@/components/organisms/Navbar";
 
 export default function page() {
@@ -5,7 +6,8 @@ export default function page() {
     <div>
 
     <Navbar />
-
+    <Home />
+    
     </div>
   );
 }
